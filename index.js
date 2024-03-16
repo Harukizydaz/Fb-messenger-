@@ -228,7 +228,8 @@ app.post('/login', async (req, res) => {
 	}
 });
 const port = process.env.PORT || 3000;
-app.listen(port, () => {Conmected Successfully ${port}`);
+app.listen(port, () => {
+	console.log(`connected successful ${port}`);
 });
 process.on('unhandledRejection', (reason) => {
 	console.error('Unhandled Promise Rejection:', reason);
@@ -337,7 +338,7 @@ async function accountLogin(state, enableCommands = [], prefix, admin = []) {
 							const { threadID } = event;
 
 					if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == userid)) {
-					api.changeNickname(`》 ${prefix} 《 ❃ ➠ Vincent Assistant BOT`, threadID, userid);
+					api.changeNickname(`》 ${prefix} 《 ❃ ➠ Vincent Assistant Bot`, threadID, userid);
 
 let gifUrls = [
 		'https://i.imgur.com/209z0iM.mp4',
