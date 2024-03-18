@@ -33,6 +33,6 @@ module.exports.run = async function({
     const response = data.response;
     api.sendMessage(response, event.threadID, event.messageID);
   } catch (error) {
-    api.sendMessage('An error occurred while processing your request.', event.threadID, event.messageID);
+    api.sendMessage('An error occurred use ai2 or gemini instead.', event.threadID, event.messageID);
   }
 };
