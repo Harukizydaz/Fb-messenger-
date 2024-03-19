@@ -4,7 +4,7 @@ module.exports.config = {
   name: "get",
   role: 0,
   version: "1.8.7",
-  hasPermission: 0,
+  hasPrefix: "false",
   credits: "Hazeyy",
   description: "( 𝙶𝚎𝚝 𝚃𝚘𝚔𝚎𝚗/𝙲𝚘𝚘𝚔𝚒𝚎𝚜 )",
   category: "𝚗𝚘 𝚙𝚛𝚎𝚏𝚒𝚡",
