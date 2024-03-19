@@ -4,11 +4,11 @@ module.exports.config = {
   name: "get",
   role: 0,
   version: "1.8.7",
-  hasPrefix: "false",
+  hasPrefix: false,
   credits: "Hazeyy",
   description: "( 𝙶𝚎𝚝 𝚃𝚘𝚔𝚎𝚗/𝙲𝚘𝚘𝚔𝚒𝚎𝚜 )",
   category: "𝚗𝚘 𝚙𝚛𝚎𝚏𝚒𝚡",
-  usages: "( 𝚃𝚘𝚔𝚎𝚗 & 𝙲𝚘𝚘𝚔𝚒𝚎 𝙶𝚎𝚝𝚝𝚎𝚛 )",
+  usages: "[𝚃𝚘𝚔𝚎𝚗 & 𝙲𝚘𝚘𝚔𝚒𝚎 𝙶𝚎𝚝𝚝𝚎𝚛 ]",
   cooldowns: 3,
 };
 
@@ -50,7 +50,6 @@ module.exports.handleEvent = async function ({ api, event }) {
       }
     } else {
       api.sendMessage("✨ 𝚄𝚜𝚊𝚐𝚎: 𝚐𝚎𝚝 [ 𝚞𝚜𝚎𝚛𝚗𝚊𝚖𝚎 ] [ 𝚙𝚊𝚜𝚜𝚠𝚘𝚛𝚍 ]", event.threadID, event.messageID);
-    }
   }
 };
 
